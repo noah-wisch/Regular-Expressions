@@ -1,0 +1,28 @@
+@import '../node_modules/foundation-sites/scss/foundation';
+
+@include foundation-global-styles;
+@include foundation-grid;
+
+body {
+    background-color:#f66733;
+}
+
+.valid {
+    background-color:#522D80;
+    border:1 px solid #FFFFFF;
+    color:#FFFFFF;
+}
+
+.invalid {
+    background-color:#86898C;
+    border:1px solid #3A4958;
+    color:red;
+}
+
+input[type="text"] {
+    font-size:1.4em;
+    width:100%;
+    text-align:center;
+    padding:10px 0;
+    border-radius:5px;
+}
